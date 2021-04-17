@@ -1,16 +1,16 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 60px;
-  width: 60%;
   margin: auto;
+  border-bottom: 1px solid #8f8f8f;
 }
 
 .header-button-container {
   display: flex;
   flex-direction: row;
-  width: 35%;
+  width: 25%;
   justify-content: space-evenly;
 }
 
