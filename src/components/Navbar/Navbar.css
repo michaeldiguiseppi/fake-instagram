@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 60%;
+  margin: auto;
+}
+
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: space-evenly;
+}
+
+.header-button-link {
+  text-decoration: none;
+  color: white;
+}
+
+.header-button-link-profile-container {
+  position: relative;
+}
+
+.link-profile-photo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.header-search-field {
+  border-radius: 2px;
+  border: 1px solid #8f8f8f;
+  background-color: #121212;
+  text-align: center;
+  height: 25px;
+  width: 215px;
+  outline: none;
+  color: #8f8f8f;
+}
+
+.header-search-field::placeholder {
+  color: #8f8f8f;
+  opacity: 0.8;
+}
