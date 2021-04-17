@@ -1,19 +1,10 @@
 @font-face {
-  font-family: "Nimbus-Sans";
-  src: local(
-    "Nimbus-Sans",
-    url(./fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf) format("truetype")
-  );
+  font-family: "Nimbus Sans";
+  src: url(./fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf);
 }
-
 body {
   margin: 0;
-  font-family: "Nimbus-Sans";
+  font-family: "Nimbus Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

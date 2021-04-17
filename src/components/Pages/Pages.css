@@ -3,6 +3,14 @@
   justify-content: space-around;
   align-items: center;
   height: 25%;
+  width: 75%;
+  margin: auto;
+  border-bottom: 1px solid #8f8f8f;
+}
+
+.profile-header-details {
+  flex-direction: column;
+  width: 80%;
 }
 
 .profile-header-photo {
@@ -10,4 +18,44 @@
   display: flex;
   border: 1px solid #8f8f8f;
   margin: 25px 0px;
+}
+
+.profile-header-edit-profile-button {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  border: 1px solid #8f8f8f;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.profile-header-edit-profile-button:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+
+.profile-header-settings-button {
+  display: flex;
+}
+
+.profile-header-settings-button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.profile-header-username {
+  font-size: 2em;
+}
+
+.profile-header-top-section {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-header-bottom-section {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }

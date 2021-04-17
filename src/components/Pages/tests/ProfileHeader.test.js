@@ -15,7 +15,7 @@ describe("<ProfileHeader />", () => {
   });
 
   it("should render a username", () => {
-    const { getByText } = render(<ProfileHeader />);
+    const { getByText } = render(<ProfileHeader username="magicmikedee" />);
     getByText(/magicmikedee/i);
   });
 
@@ -35,7 +35,7 @@ describe("<ProfileHeader />", () => {
   });
 
   it("should show the correct number of posts", () => {
-    const { getByText } = render(<ProfileHeader posts={3} />);
+    const { getByText } = render(<ProfileHeader postCount={3} />);
     getByText(/3 posts/i);
   });
 
@@ -45,7 +45,7 @@ describe("<ProfileHeader />", () => {
   });
 
   it("should show the correct number of followers", () => {
-    const { getByText } = render(<ProfileHeader followers={10} />);
+    const { getByText } = render(<ProfileHeader followerCount={10} />);
     getByText(/10 followers/i);
   });
 
@@ -55,7 +55,7 @@ describe("<ProfileHeader />", () => {
   });
 
   it("should show the correct number of following", () => {
-    const { getByText } = render(<ProfileHeader following={25} />);
+    const { getByText } = render(<ProfileHeader followingCount={25} />);
     getByText(/25 following/i);
   });
 
