@@ -15,6 +15,7 @@
 }
 
 .header-button-link {
+  display: flex;
   text-decoration: none;
   color: white;
 }
@@ -31,6 +32,7 @@
 }
 
 .header-search-field {
+  display: flex;
   border-radius: 2px;
   border: 1px solid #8f8f8f;
   background-color: #121212;

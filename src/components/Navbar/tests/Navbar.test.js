@@ -16,10 +16,7 @@ describe("<Navbar />", () => {
 
   it("the logo should link to the home page", () => {
     const { getByTestId } = render(<Navbar />);
-    expect(getByTestId(/header-button-link-logo/)).toHaveAttribute(
-      "href",
-      "/home"
-    );
+    expect(getByTestId(/header-button-link-logo/)).toHaveAttribute("href", "/");
   });
 
   it("has a text input search box", () => {
@@ -41,7 +38,7 @@ describe("<Navbar />", () => {
   it("the home button should have a link to home", () => {
     const { getByTestId } = render(<Navbar />);
     const linkElement = getByTestId(/header-button-link-home/);
-    expect(linkElement).toHaveAttribute("href", "/home");
+    expect(linkElement).toHaveAttribute("href", "/");
   });
 
   it("the chat button should have a link to chat", () => {

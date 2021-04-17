@@ -1,0 +1,13 @@
+.profile-header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25%;
+}
+
+.profile-header-photo {
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid #8f8f8f;
+  margin: 25px 0px;
+}
